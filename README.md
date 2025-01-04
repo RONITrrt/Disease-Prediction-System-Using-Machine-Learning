@@ -45,3 +45,26 @@ Follow these steps to set up and run the project:
    ```bash
    pip install streamlit
    pip install streamlit-option-menu
+
+Usage
+Run the application:
+bash
+
+   streamlit run app.py
+Open the app in your web browser using the link provided by Streamlit.
+Navigate between the prediction pages for Diabetes, Heart Disease, or Parkinson's Disease using the sidebar menu.
+Input your health details and click the "Test Result" button to receive a prediction.
+How It Works
+The app is built using Streamlit, a Python framework for creating interactive web applications.
+Pre-trained machine learning models (stored as .sav files) are used to make predictions.
+The user inputs are processed and fed into the respective model to generate a prediction.
+Results are displayed directly on the app page.
+Technologies Used
+Programming Language: Python 3.x
+Framework: Streamlit
+Libraries:
+streamlit
+streamlit-option-menu
+pickle (for loading machine learning models)
+Disclaimer
+This application is intended for informational and educational purposes only. It is not a substitute for professional medical advice, diagnosis, or treatment. Always seek the advice of a qualified healthcare provider with any questions you may have regarding a medical condition.
