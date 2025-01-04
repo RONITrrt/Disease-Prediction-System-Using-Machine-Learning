@@ -1,28 +1,47 @@
-# Disease-Prediction-System-Using-Machine-Learning
-Disease Prediction Application
-Overview
-This is a simple web application that predicts the likelihood of three diseases: Diabetes, Heart Disease, and Parkinson's Disease. The app allows users to input their health details and receive predictions using pre-trained machine learning models.
+# Disease Prediction System Using Machine Learning
 
-Features
-Diabetes Prediction: Based on health data like glucose levels and BMI.
-Heart Disease Prediction: Based on factors like cholesterol and blood pressure.
-Parkinson's Prediction: Based on voice-related and medical data.
-How to Run
-Install Python 3.x on your system.
-Install the required packages:
-bash
-Copy code
-pip install streamlit
-pip install streamlit-option-menu
-Run the application:
-bash
-Copy code
-streamlit run app.py
-Open the app in your browser and start predicting.
-How It Works
-Enter your health details in the provided form.
-The app uses machine learning models to predict the possibility of each disease.
-The prediction is displayed instantly on the same page.
-Purpose
-This application helps users assess their health risks quickly and easily. It's designed for educational and awareness purposes, not as a substitute for professional medical advice.
+This project is a web-based application that predicts the likelihood of three diseases: **Diabetes**, **Heart Disease**, and **Parkinson's Disease**, using pre-trained machine learning models. It provides a simple, user-friendly interface for entering health details and receiving predictions.
 
+---
+
+## Table of Contents
+
+- [Overview](#overview)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [How It Works](#how-it-works)
+- [Technologies Used](#technologies-used)
+- [Disclaimer](#disclaimer)
+
+---
+
+## Overview
+
+The Disease Prediction System aims to provide a preliminary risk assessment for three major diseases. This tool is designed for educational purposes, enabling users to understand potential health risks based on their input data.
+
+---
+
+## Features
+
+1. **Diabetes Prediction**
+   - Predicts diabetes risk based on parameters like glucose level, BMI, insulin, and age.
+
+2. **Heart Disease Prediction**
+   - Evaluates the risk of heart disease using inputs such as cholesterol level, blood pressure, and other medical details.
+
+3. **Parkinson's Disease Prediction**
+   - Identifies the likelihood of Parkinson's disease based on voice and medical attributes like jitter and shimmer.
+
+---
+
+## Installation
+
+Follow these steps to set up and run the project:
+
+1. Clone this repository or download the source code.
+2. Install Python 3.x if not already installed.
+3. Install the required Python packages:
+   ```bash
+   pip install streamlit
+   pip install streamlit-option-menu
