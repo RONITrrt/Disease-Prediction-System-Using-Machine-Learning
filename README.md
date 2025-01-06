@@ -67,4 +67,4 @@ streamlit
 streamlit-option-menu
 pickle (for loading machine learning models)
 Disclaimer
-This application is intended for informational and educational purposes only. It is not a substitute for professional medical advice, diagnosis, or treatment. Always seek the advice of a qualified healthcare provider with any questions you may have regarding a medical condition.
+This application is intended for informational and educational purposes only. It is not a substitute for professional medical advice, diagnosis, or treatment. Always seek the advice of a qualified healthcare provider with any questions you may have regarding a medical condition..
